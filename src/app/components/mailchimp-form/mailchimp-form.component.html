@@ -47,3 +47,14 @@
   </form>
 
 </section>
+
+
+
+<ng-template #content let-modal>
+  <div class="modal-body">
+    {{modalMessage}}
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close()">okay</button>
+  </div>
+</ng-template>

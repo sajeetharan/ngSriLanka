@@ -8,6 +8,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { HeaderComponentComponent } from './components/common/header-component/header-component.component';
 import { SocialIconsComponentComponent } from './components/common/social-icons-component/social-icons-component.component';
 import { FormsModule } from '@angular/forms';
+import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgbModalModule
   ],
   providers: [],
   bootstrap: [AppComponent]
