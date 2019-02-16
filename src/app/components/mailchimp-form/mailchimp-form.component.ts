@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import Swal from 'sweetalert2';
+import 'sweetalert2/src/sweetalert2.scss';
 
 
 interface IResponseData {
@@ -44,7 +46,11 @@ export class MailchimpFormComponent implements OnInit {
         this.isHideForm = true;
       }
 
-      alert('Awesome! Thanks for subscribing, we\'ll keep you in the loop :D');
+      Swal.fire({
+        type: 'success',
+        title: 'Keep in touch!',
+        text:  `This the Sri Lankan's biggest Angular Event`
+      });
       this.isBtnDisabled = false;
 
     } catch (error) {
