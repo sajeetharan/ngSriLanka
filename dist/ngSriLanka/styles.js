@@ -596,8 +596,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\ng-Sri Lanka\ngSriLanka\node_modules\bootstrap\dist\css\bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
-module.exports = __webpack_require__(/*! E:\ng-Sri Lanka\ngSriLanka\src\styles.css */"./src/styles.css");
+__webpack_require__(/*! E:\ngSrilanka\ngSriLanka\node_modules\bootstrap\dist\css\bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
+module.exports = __webpack_require__(/*! E:\ngSrilanka\ngSriLanka\src\styles.css */"./src/styles.css");
 
 
 /***/ })
