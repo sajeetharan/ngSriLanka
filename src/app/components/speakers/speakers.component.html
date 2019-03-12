@@ -1,17 +1,21 @@
 <section class="speaker section-spacing text-center" id="speaker">
     <div class="container">
       <header>
-        <h2>The Speakers</h2>
-        <h3>Experts who will be speaking at the event</h3>
+        <div class="row">
+          <div class="col-md-12">
+              <h2>Speakers</h2>
+              <h3 class="section-sub-title">Experts who will be speaking at the event</h3>
+          </div>
+        </div>       
       </header>
       <div class="row">
-                <div class="col-sm-3">
-                    <div class="item"> 
+                <div class="col-sm-3 shrink-div" *ngFor="let speaker of speakers">
+                    <div class="item shrink"> 
                         <!--event-speaker-->
                         <div class="event-speaker">
                           <figure> <img src="../../assets/images/speakers/speaker-1.jpg" alt="event-speaker" data-no-retina>
                             <figcaption>
-                              <h4>Azkar Moulana</h4>
+                              <h4>{{ speaker }}</h4>
                               <p>99X Technology</p>
                               <!--social-->
                               <ul class="social">
@@ -22,165 +26,14 @@
                               <!--social end--> 
                             </figcaption>
                           </figure>
-                          <a href="#0" data-type="speaker-1" class="bttn">View Bio</a> </div>
+                          </div>
                         <!--event-speaker end--> 
                       </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="item"> 
-                        <!--event-speaker-->
-                        <div class="event-speaker">
-                          <figure> <img src="../../assets/images/speakers/speaker-3.jpg" alt="event-speaker" data-no-retina>
-                            <figcaption>
-                                <h4>Azkar Moulana</h4>
-                                <p>99X Technology</p>
-                              <!--social-->
-                              <ul class="social">
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://github.com/" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-                              </ul>
-                              <!--social end--> 
-                            </figcaption>
-                          </figure>
-                          <a href="#0" data-type="speaker-3" class="bttn">View Bio</a> </div>
-                        <!--event-speaker end--> 
-                      </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="item"> 
-                        <!--event-speaker-->
-                        <div class="event-speaker">
-                          <figure> <img src="../../assets/images/speakers/speaker-2.jpg" alt="event-speaker" data-no-retina>
-                            <figcaption>
-                                <h4>Azkar Moulana</h4>
-                                <p>99X Technology</p>
-                              <!--social-->
-                              <ul class="social">
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://github.com/" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-                              </ul>
-                              <!--social end--> 
-                            </figcaption>
-                          </figure>
-                          <a href="#0" data-type="speaker-2" class="bttn">View Bio</a> </div>
-                        <!--event-speaker end--> 
-                      </div>
-                    
-                </div>
-                <div class="col-sm-3">
-                    <div class="item"> 
-                        <!--event-speaker-->
-                        <div class="event-speaker">
-                          <figure> <img src="../../assets/images/speakers/speaker-4.jpg" alt="event-speaker" data-no-retina>
-                            <figcaption>
-                                <h4>Azkar Moulana</h4>
-                                <p>99X Technology</p>
-                              <!--social-->
-                              <ul class="social">
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://github.com/" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-                              </ul>
-                              <!--social end--> 
-                            </figcaption>
-                          </figure>
-                          <a href="#0" data-type="speaker-4" class="bttn">View Bio</a> </div>
-                        <!--event-speaker end--> 
-                      </div>
-          
-                </div>
-
-                <div class="col-sm-3">
-                    <div class="item"> 
-                        <!--event-speaker-->
-                        <div class="event-speaker">
-                          <figure> <img src="../../assets/images/speakers/speaker-1.jpg" alt="event-speaker" data-no-retina>
-                            <figcaption>
-                                <h4>Azkar Moulana</h4>
-                                <p>99X Technology</p>
-                              <!--social-->
-                              <ul class="social">
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://github.com/" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-                              </ul>
-                              <!--social end--> 
-                            </figcaption>
-                          </figure>
-                          <a href="#0" data-type="speaker-1" class="bttn">View Bio</a> </div>
-                        <!--event-speaker end--> 
-                      </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="item"> 
-                        <!--event-speaker-->
-                        <div class="event-speaker">
-                          <figure> <img src="../../assets/images/speakers/speaker-3.jpg" alt="event-speaker" data-no-retina>
-                            <figcaption>
-                                <h4>Azkar Moulana</h4>
-                                <p>99X Technology</p>
-                              <!--social-->
-                              <ul class="social">
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://github.com/" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-                              </ul>
-                              <!--social end--> 
-                            </figcaption>
-                          </figure>
-                          <a href="#0" data-type="speaker-3" class="bttn">View Bio</a> </div>
-                        <!--event-speaker end--> 
-                      </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="item"> 
-                        <!--event-speaker-->
-                        <div class="event-speaker">
-                          <figure> <img src="../../assets/images/speakers/speaker-2.jpg" alt="event-speaker" data-no-retina>
-                            <figcaption>
-                                <h4>Azkar Moulana</h4>
-                                <p>99X Technology</p>
-                              <!--social-->
-                              <ul class="social">
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://github.com/" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-                              </ul>
-                              <!--social end--> 
-                            </figcaption>
-                          </figure>
-                          <a href="#0" data-type="speaker-2" class="bttn">View Bio</a> </div>
-                        <!--event-speaker end--> 
-                      </div>
-                    
-                </div>
-                <div class="col-sm-3">
-                    <div class="item"> 
-                        <!--event-speaker-->
-                        <div class="event-speaker">
-                          <figure> <img src="../../assets/images/speakers/speaker-4.jpg" alt="event-speaker" data-no-retina>
-                            <figcaption>
-                                <h4>Azkar Moulana</h4>
-                                <p>99X Technology</p>
-                              <!--social-->
-                              <ul class="social">
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://github.com/" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-                              </ul>
-                              <!--social end--> 
-                            </figcaption>
-                          </figure>
-                          <a href="#0" data-type="speaker-4" class="bttn">View Bio</a> </div>
-                        <!--event-speaker end--> 
-                      </div>
-          
-                </div>
+                
 
 
         
       </div>
     </div>
+   </div>
   </section>
