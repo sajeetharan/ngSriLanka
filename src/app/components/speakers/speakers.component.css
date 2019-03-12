@@ -114,12 +114,6 @@ body {
     border: 1px solid #8ec150;
     color: #fff;
   }
-  
-  /* figure:hover {
-    -webkit-transform : scale(0.9);
-	transform : scale(0.9);
-  
-  } */
 
   img:hover{
     -webkit-transform :scale(1.03);
