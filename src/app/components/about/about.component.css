@@ -1,0 +1,24 @@
+.mrg-top {
+    margin-top: 25px;
+}
+
+.sub-txt-title{
+    font-weight: 400;
+}
+
+.txt-title{
+    font-weight: 300;
+}
+
+.detail-sec-mrg{
+    margin-top: 150px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #abt-txt-title {
+      font-size: 18px;
+    }
+    .cmb-title{
+        font-weight: 300;
+    }
+  }
