@@ -13,15 +13,14 @@
                     <div class="item shrink"> 
                         <!--event-speaker-->
                         <div class="event-speaker">
-                          <figure> <img src="../../assets/images/speakers/speaker-1.jpg" alt="event-speaker" data-no-retina>
+                          <figure> <img src="../../assets/images/speakers/{{speaker.imagePath}}" alt="event-speaker" data-no-retina>
                             <figcaption>
-                              <h4>{{ speaker }}</h4>
-                              <p>99X Technology</p>
+                              <h4>{{ speaker.name }}</h4>
+                              <p>{{ speaker.company}}</p>
                               <!--social-->
                               <ul class="social">
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://github.com/" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+                                <li><a href="https://twitter.com/{{ speaker.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://github.com/{{speaker.github}}" target="_blank"><i class="fa fa-github-alt"></i></a></li>
                               </ul>
                               <!--social end--> 
                             </figcaption>
