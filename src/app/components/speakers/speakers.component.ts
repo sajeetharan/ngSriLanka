@@ -7,8 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SpeakersComponent implements OnInit {
 
-  speakers = ["Azkar Moulana", "Azkar Moulana", "Azkar Moulana", "Azkar Moulana", "Azkar Moulana", "Azkar Moulana", "Azkar Moulana", "Azkar Moulana", "Azkar Moulana", "Azkar Moulana", "Azkar Moulana", "Azkar Moulana","Azkar Moulana", "Azkar Moulana","Azkar Moulana", "Azkar Moulana",]
-
+  speakers = []
   constructor() { }
 
   ngOnInit() {
