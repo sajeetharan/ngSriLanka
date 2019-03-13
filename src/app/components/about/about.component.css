@@ -115,7 +115,7 @@
     transition: all 0.4s ease-in-out;
   }  
   #speaker {
-    height: 90px;
+    height: 70px;
     position: absolute;
     bottom: 0;
     width: 100%;

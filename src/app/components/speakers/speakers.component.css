@@ -112,3 +112,10 @@
       min-height: 100vh;
       padding-top: 60px;
   }
+
+  #event-sponsors {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+  }
