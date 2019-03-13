@@ -8,6 +8,12 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { HeaderComponentComponent } from './components/common/header-component/header-component.component';
 import { SocialIconsComponentComponent } from './components/common/social-icons-component/social-icons-component.component';
 import { FormsModule } from '@angular/forms';
+import { AboutComponent } from './components/about/about.component';
+import { SpeakersComponent } from './components/speakers/speakers.component';
+import { SponsorsComponent } from './components/sponsors/sponsors.component';
+import { VenueComponent } from './components/venue/venue.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { TicketsComponent } from './components/tickets/tickets.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { FormsModule } from '@angular/forms';
     MailchimpFormComponent,
     LandingPageComponent,
     HeaderComponentComponent,
-    SocialIconsComponentComponent
+    SocialIconsComponentComponent,
+    AboutComponent,
+    SpeakersComponent,
+    SponsorsComponent,
+    VenueComponent,
+    FooterComponent,
+    TicketsComponent
   ],
   imports: [
     BrowserModule,
