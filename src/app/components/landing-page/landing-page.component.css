@@ -417,3 +417,11 @@ div#main-section {
   /* top: 15vh; */
 
 }
+
+
+#about-event {
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  bottom: 0;
+}

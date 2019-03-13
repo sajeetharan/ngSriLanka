@@ -30,7 +30,7 @@ import { HomeComponent } from './components/home/home.component';
     VenueComponent,
     FooterComponent,
     TicketsComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

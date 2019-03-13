@@ -1,7 +1,7 @@
 
 ::ng-deep #header {
-    height: 90px;
-    padding: 25px 0;
+    height: 70px;
+    padding: 17px 0;
     position: fixed; 
     left: 0;
     top: 0;
@@ -61,8 +61,8 @@
 
 header{
   background: black;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.30);
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.30);
 }
 
 .nav-menu,
