@@ -414,6 +414,6 @@ div#main-section {
   /* width: 960px; */
   flex-direction: column;
   position: relative;
-  top: 15vh;
+  /* top: 15vh; */
 
 }

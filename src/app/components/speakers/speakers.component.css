@@ -1,11 +1,3 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-    font-size: 16px;
-    overflow-x: hidden;
-  }
-  
   p {
     font-weight: 300;
     color: #888;
@@ -16,8 +8,7 @@ body {
     color: #82b641;
     transition: all 0.3s ease-in-out;
   }
-  
-  
+   
   img {
     max-width: 100%;
     height: auto;
@@ -30,10 +21,6 @@ body {
     margin: 0;
   }
   
-  .speaker {
-      margin-top: 50px;
-  }
-
   .event-speaker figure img {
     border-radius: 4px;
     transition: all 1s ease;
@@ -78,10 +65,10 @@ body {
     
     }
 
-    img{
-        -webkit-transition: all 700ms ease;
+  img{
+    -webkit-transition: all 700ms ease;
     transition: all 700ms ease;
-    }
+  }
  
   
   
@@ -121,12 +108,7 @@ body {
   }
 	
 
-  #speaker{
-      margin-top: 7em;
-  }
-
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    #speaker{
-        margin-top: 4em;
-    }
+  #speakers{
+      min-height: 100vh;
+      padding-top: 60px;
   }

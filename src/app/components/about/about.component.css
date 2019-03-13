@@ -7,7 +7,15 @@
 }
 
 .txt-title{
-    font-weight: 300;
+    font-weight: 500;
+}
+
+.cmb-title {
+  font-weight: 200 !important;
+}
+
+.txt-title-sub {
+  font-weight: 200;
 }
 
 .detail-sec-mrg{
@@ -16,13 +24,14 @@
 
 #about {
     min-height: 100vh;
+    padding-top: 60px;
 }
 
 .mt30 {
     margin-top: 30px !important;
-  }
+}
 
-  .icon_box_one {
+.icon_box_one {
     background-color: #f0f2f6;
     padding: 0;
     margin: 25px 0;
@@ -33,13 +42,12 @@
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     height: 290px;
-  }
+}
   .icon_box_one i {
     margin-top: -10px;
     padding: 0 15px;
     font-size: 72px;
     color: #f50136;
-    vertical-align: middle;
     border-radius: 4px;
     display: block;
     margin-bottom: 15px;
@@ -106,12 +114,9 @@
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
   }  
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    #abt-txt-title {
-      font-size: 18px;
-    }
-    .cmb-title{
-        font-weight: 300;
-    }
+  #speaker {
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
