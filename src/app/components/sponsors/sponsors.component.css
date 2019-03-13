@@ -1,5 +1,4 @@
-  
-.sponsor > .container > .row:first-of-type { margin-bottom: 3em; }
+  .sponsor > .container > .row:first-of-type { margin-bottom: 3em; }
 
 .action-btn-sponsor,
 .action-btn-pricing { margin-top: 3em; }
@@ -25,17 +24,10 @@
     margin-top: 5em
 }
 
-section{
-    margin-bottom: 7em;
-}
-
-#sponsor {
-    margin-top: 7.0em;
-}
-
 .btn-primary {
     background: #ee0933 !important;
     border: #ee0933;
+    height: 45px;
 }
 
 .btn-primary:hover {
@@ -44,12 +36,7 @@ section{
     cursor: pointer;
 }
 
-#sponsor {
+#sponsors {
     min-height: 100vh;
+    padding-top: 60px;
 }
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    #sponsor{
-        margin-top: 4em;
-    }
-  }
