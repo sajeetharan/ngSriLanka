@@ -32,6 +32,7 @@
             box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+    height: 290px;
   }
   .icon_box_one i {
     margin-top: -10px;
