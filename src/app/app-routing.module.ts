@@ -2,13 +2,20 @@ import { NgModule } from '@angular/core';
 import { ComingSoonPageComponent } from './components/coming-soon-page/coming-soon-page.component';
 
 import { RouterModule, Routes } from '@angular/router';
-//  Need to implement routing
+import { SponsorshipPackagesComponent } from './components/sponsorship-packages/sponsorship-packages.component';
 
+const Routes: Routes = [
+    { path: 'packages', component: SponsorshipPackagesComponent },
+]
 
 @NgModule({
 
-    imports: [],
-    exports: []
+    imports: [
+        RouterModule.forChild(Routes),
+    ],
+    exports: [
+        RouterModule
+    ],
 })
 
 export class AppRoutingModule { }

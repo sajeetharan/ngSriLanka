@@ -15,6 +15,7 @@ import { VenueComponent } from './components/venue/venue.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TicketsComponent } from './components/tickets/tickets.component';
 import { HomeComponent } from './components/home/home.component';
+import { SponsorshipPackagesComponent } from './components/sponsorship-packages/sponsorship-packages.component';
 
 @NgModule({
   declarations: [
@@ -31,11 +32,13 @@ import { HomeComponent } from './components/home/home.component';
     FooterComponent,
     TicketsComponent,
     HomeComponent,
+    SponsorshipPackagesComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

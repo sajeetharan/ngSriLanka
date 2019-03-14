@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SponsorsComponent implements OnInit {
 
-  constructor() { }
+  showpackages: boolean;
+
+  constructor() { 
+    this.showpackages = false;
+  }
 
   ngOnInit() {
+  }
+
+  showPackages () {
+    this.showpackages = true;
   }
 
 }
