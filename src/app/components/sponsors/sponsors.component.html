@@ -1,4 +1,4 @@
-<section class="sponsor section-spacing text-center" id="sponsors">
+<section class="sponsor section-spacing text-center" id="sponsors" *ngIf="!showpackages">
     <div class="container">
       <header>
         <h2>Sponsors</h2>
@@ -22,8 +22,201 @@
       </div>
       <div class="row btm-margin">
         <div class="col-sm-12">
-          <button class="btn btn-primary">Become a sponsor</button>
+          <button class="btn btn-primary" (click)="showPackages()">Become a sponsor</button>
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="sponsors" *ngIf="showpackages">
+    <div class="container">
+        <header>
+          <h2>Sponsorship Packages</h2>
+        </header>
+    </div>
+    <div class="container">
+        <div class="row card-row justify-content-center">
+          
+            <div class="col-md-3 col-12">
+                <div class="price_box active">
+                   <div class="price_header bronze">
+                       <h4>
+                          Bronze
+                       </h4>
+                   </div>
+                   <hr>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Logo on website
+                            </li>
+                            <li>
+                                Logo on brochures
+                            </li>
+                            <li>
+                                Logo on registration desk
+                            </li>
+                            <li>
+                                Flyer in participants kit
+                            </li>
+                            <li>
+                                Promotion on social media accounts
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <span class="badge badge-primary badge-price bronze-bac">$ 250</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-12">
+                <div class="price_box active">
+                   <div class="price_header silver">
+                       <h4>
+                          Silver
+                       </h4>
+                   </div>
+                   <hr>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Logo on website
+                            </li>
+                            <li>
+                                Logo on brochures
+                            </li>
+                            <li>
+                                Logo on registration desk
+                            </li>
+                            <li>
+                                Logo on stage
+                            </li>
+                            <li>
+                                Logo on conference notepad
+                            </li>
+                            <li>
+                                Flyer in participants kit
+                            </li>
+                            <li>
+                                Promotion on social media accounts
+                            </li>
+                            <li>
+                                One post conference email to participants
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <span class="badge badge-primary badge-price silver-bac">$ 500</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-12">
+                <div class="price_box active">
+                   <div class="price_header gold">
+                       <h4>
+                          Gold
+                       </h4>
+                   </div>
+                   <hr>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Logo on website
+                            </li>
+                            <li>
+                                Logo on brochures
+                            </li>
+                            <li>
+                                Logo on registration desk
+                            </li>
+                            <li>
+                                Logo on stage
+                            </li>
+                            <li>
+                                Logo on conference notepad
+                            </li>
+                            <li>
+                                Flyer in participants kit
+                            </li>
+                            <li>
+                                Promotion on social media accounts
+                            </li>
+                            <li>
+                                One post conference email to participants
+                            </li>
+                            <li>
+                                Full page in conference brochure
+                            </li>
+                            <li>
+                                One booth without TV
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <span class="badge badge-primary badge-price gold-bac">$ 750</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-12">
+                <div class="price_box active">
+                   <div class="price_header platinum">
+                       <h4>
+                          Platinum
+                       </h4>
+                   </div>
+                   <hr>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Logo on website
+                            </li>
+                            <li>
+                                Logo on brochures
+                            </li>
+                            <li>
+                                Logo on registration desk and lounge standees
+                            </li>
+                            <li>
+                                Logo on photo booth
+                            </li>
+                            <li>
+                                Logo on stage
+                            </li>
+                            <li>
+                                Full page in conference brochure
+                            </li>
+                            <li>
+                                Logo on conference notepad
+                            </li>
+                            <li>
+                                Two standee with product / company in lounge
+                            </li>
+                            <li>
+                                Two emails to participants
+                            </li>
+                            <li>
+                                One speaking slot
+                            </li>
+                            <li>
+                                One booth without TV
+                            </li>
+                            <li>
+                                Brand logo on lanyard
+                            </li>
+                            <li>
+                                5-10 minute sponsor talk
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <span class="badge badge-primary badge-price platinum-bac">$ 1000</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </div>
   </section>
