@@ -1,43 +1,5 @@
-div#mailchimp-form {
-    padding: 24px;
-    text-align: center;
-    margin-top: -96px;
-}
 
-.sigup-container {
-    width: 100%;
-    margin: auto;
-}
 
-.sigup-container > input[type='text'] {
-    margin-bottom: 12px;
-}
-
-/* 
-
-#subscribe {
-    padding: 60px;
-    background: url('/assets/images/subscribe1-bg.jpg') center center no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  #subscribe:before {
-    content: "";
-    background: rgba(6, 12, 34, 0.6);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-   */
-  #subscribe .section-header h2,
-  #subscribe p {
-    color: #fff;
-  }
-  
   #subscribe input {
     background: #fff;
     color: #060c22;
@@ -64,76 +26,28 @@ div#mailchimp-form {
   #subscribe button:hover {
     background: #e0072f;
   }
-/* 
-  .form-row {
-    display: flex;
-    justify-content: center;
-} */
 
-/* .form-row >  * {
-    margin-right: 24px;
-}
-
-
-.form-row > input {
-    width: 400px;
-} */
-
-div#mailc-input-container {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    margin-top: 24px;
-    margin-bottom: 12px;
-}
-
-div#mailc-input-container > input {
-    text-align: center;
-}
-
-#mailc-input-email{
-    width: 400px;
-}
-
-#mailc-input-firstName, #mailc-input-lastName {
-    width: 190px;
-}
-
-#mailc-input-name-container, #mailc-input-email-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-h3.hero-text {
+  h3.hero-text {
     color: white;
     margin: 24px 0;
 }
 
+#subscribe {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 @media only screen and (max-device-width: 480px) {
-    #mailc-input-email{
-        width: 100%;
-    }
-    #mailc-input-firstName, #mailc-input-lastName ,#subscribe input {
-        width: 100%;
-        margin: 5px 0 !important
-    }
+    
+  #subscribe{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
 
-    div#mailc-input-name-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    div#mailc-input-container {
-        padding: 0 12px;
-    }
+@media only screen and (max-device-width: 480px) {
     
     h3.hero-text {
         font-size: 1.4rem !important;
-    }
-    
-    
+    }   
 }

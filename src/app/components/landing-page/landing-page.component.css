@@ -354,13 +354,12 @@
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  text-emphasis-position: up;
   padding: 0 13px;
 }
 
 #intro h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  
   font-size: 80px;
   font-weight: 600;
   text-transform: uppercase;

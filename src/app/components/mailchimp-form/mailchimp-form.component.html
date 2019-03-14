@@ -22,7 +22,37 @@
       Subscribe Section
     ============================-->
 <section id="subscribe" *ngIf="!isHideForm">
-  <form>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+          <h3 class="hero-text">Excited? Don't forget to subscribe for more updates </h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+          <input  type="text" class="form-control" [(ngModel)]='first_name' name='first_name' placeholder="First name">
+      </div>
+      <div class="col-sm-6">
+          <input type="text" class="form-control" placeholder="Last name" [(ngModel)]='last_name' name='last_name'>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+          <input type="text" class="form-control" placeholder="Enter your Email" [(ngModel)]='email' name='email'>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+          <button type="button" [disabled]='isBtnDisabled' (click)="handleNotify()">Subscribe</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- <form>
     <h3 class="hero-text">Excited? Don't forget to subscribe for more updates </h3>
     <div class="form-row">
 
@@ -44,6 +74,6 @@
 
     </div>
 
-  </form>
+  </form> -->
 
 </section>
