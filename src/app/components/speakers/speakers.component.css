@@ -111,6 +111,7 @@
   #speakers{
       min-height: 100vh;
       padding-top: 60px;
+      position: relative;
   }
 
   #event-sponsors {

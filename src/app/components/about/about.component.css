@@ -113,7 +113,12 @@
     color: #ffffff;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-  }  
+  }
+  
+  #about {
+    position: relative;
+  }
+
   #speaker {
     height: 70px;
     position: absolute;
