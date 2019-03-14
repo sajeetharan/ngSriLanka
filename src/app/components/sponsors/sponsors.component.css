@@ -129,3 +129,42 @@
     font-size: 25px;
     font-weight: 300;
 }
+
+.bronze {
+  color: #cd7f32;
+}
+
+.bronze-bac {
+  background: #cd7f32;
+}
+
+.silver {
+  color: #a7a5a5;
+}
+
+.silver-bac {
+  background: #a7a5a5;
+}
+
+.gold {
+  color: 		#D4AF37;
+}
+
+.gold-bac {
+  background: 	#D4AF37;
+}
+
+.platinum {
+  color: #ee0933;
+}
+
+.platinum-bac {
+  background: #ee0933;
+}
+
+#sponsors {
+  -webkit-transition: all 3s ease-in-out;
+  -moz-transition: all 3s ease-in-out;
+  -o-transition: all 3s ease-in-out;
+  transition: all 3s ease-in-out;
+}
