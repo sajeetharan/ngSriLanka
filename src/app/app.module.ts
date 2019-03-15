@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { ComingSoonPageComponent } from './components/coming-soon-page/coming-soon-page.component';
 import { MailchimpFormComponent } from './components/mailchimp-form/mailchimp-form.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
-import { HeaderComponentComponent } from './components/common/header-component/header-component.component';
 import { SocialIconsComponentComponent } from './components/common/social-icons-component/social-icons-component.component';
 import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './components/about/about.component';
@@ -24,7 +23,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ComingSoonPageComponent,
     MailchimpFormComponent,
     LandingPageComponent,
-    HeaderComponentComponent,
     SocialIconsComponentComponent,
     AboutComponent,
     SpeakersComponent,
