@@ -1,4 +1,4 @@
-  .sponsor > .container > .row:first-of-type { margin-bottom: 3em; }
+.sponsor > .container > .row:first-of-type { margin-bottom: 3em; }
 
 .action-btn-sponsor,
 .action-btn-pricing { margin-top: 3em; }
