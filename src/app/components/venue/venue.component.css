@@ -47,6 +47,7 @@
   #map-canvas img { max-width: none; }
 
   .venue-sec{
+      background-color: rgb(200,200,200,0.5);
       height: 250px;
       margin-top: 25vh;
   }
