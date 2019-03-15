@@ -161,10 +161,27 @@
 .platinum-bac {
   background: #ee0933;
 }
+.sponsorship-sub-title{
+  font-weight: 200;
+}
 
-#sponsors {
-  -webkit-transition: all 3s ease-in-out;
-  -moz-transition: all 3s ease-in-out;
-  -o-transition: all 3s ease-in-out;
-  transition: all 3s ease-in-out;
+.sponsor-contact{
+  margin-top: 5em;
+}
+
+.cont-detail {
+  margin-bottom: 10em;
+}
+
+.sponsor-contact-detals {
+  padding-top: 10px;  
+}
+
+.sponsor-contact-detals h6{
+  font-weight: 400; 
+}
+
+.cont-detail i {
+  color: #ee0933;
+  font-size: 40px;
 }

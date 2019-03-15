@@ -17,6 +17,7 @@ import { TicketsComponent } from './components/tickets/tickets.component';
 import { HomeComponent } from './components/home/home.component';
 import { SponsorshipPackagesComponent } from './components/sponsorship-packages/sponsorship-packages.component';
 import { NavComponent } from './components/common/nav/nav.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { NavComponent } from './components/common/nav/nav.component';
     BrowserModule,
     HttpClientModule,
     FormsModule,
+    BrowserAnimationsModule
     
   ],
   providers: [],
