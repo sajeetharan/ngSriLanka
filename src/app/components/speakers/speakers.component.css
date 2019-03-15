@@ -60,8 +60,7 @@
   .owl-wrapper-outer { margin-bottom: 1.5em; }
   
   .speaker-slider .item { 
-    margin: 3px;
-    
+    margin: 3px; 
     
     }
 
@@ -70,8 +69,6 @@
     transition: all 700ms ease;
   }
  
-  
-  
   .social li {
     display: inline-block;
     padding-right: .8em;
