@@ -7,11 +7,11 @@ import {style, state, animate, transition, trigger} from '@angular/animations';
   styleUrls: ['./sponsors.component.css'],
   animations: [
     trigger('fadeInOut', [
-      transition(':enter', [   // :enter is alias to 'void => *'
+      transition(':enter', [
         style({opacity:0}),
         animate(500, style({opacity:1})) 
       ]),
-      transition(':leave', [   // :leave is alias to '* => void'
+      transition(':leave', [
         animate(500, style({opacity:0})) 
       ])
     ])
