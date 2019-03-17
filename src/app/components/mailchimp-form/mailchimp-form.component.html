@@ -1,49 +1,32 @@
-<!-- <div class="card" id="mailchimp-form">
-
-  <div class="card-body">
-    <h5 class="card-title">
-      <p class="lead">Subscribe to receive latest updates on ngSriLanka</p>
-    </h5>
-
-    <div class="card-text">
-      <div class="sigup-container">
-        <input type="text" name="" class="form-control" placeholder="Your Name" id="" />
-        <input type="text" name="" class="form-control" placeholder="Email" id="" />
-        <a href="#" class="btn btn-primary">Notify Me</a>
-      </div>
-
-    </div>
-
-  </div>
-</div> -->
-
-
-<!--==========================
-      Subscribe Section
-    ============================-->
 <section id="subscribe" *ngIf="!isHideForm">
-  <form>
-    <h3 class="hero-text">Excited? Don't forget to subscribe for more updates </h3>
-    <div class="form-row">
 
-
-      <div id="mailc-input-container">
-        <div id="mailc-input-name-container">
-          <input id="mailc-input-firstName" type="text" class="form-control" [(ngModel)]='first_name' name='first_name' placeholder="First name">
-          <input id="mailc-input-lastName" type="text" class="form-control" placeholder="Last name" [(ngModel)]='last_name' name='last_name'>
-        </div>
-        <div id="mailc-input-email-container">
-          <input id="mailc-input-email" type="text" class="form-control" placeholder="Enter your Email" [(ngModel)]='email' name='email'>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+          <h3 class="hero-text">Excited? Don't forget to subscribe for more updates </h3>
       </div>
-
-
-      <div id="mailc-btn-container">
-        <button type="button" [disabled]='isBtnDisabled' (click)="handleNotify()">Subscribe</button>
-      </div>
-
     </div>
 
-  </form>
+    <div class="row">
+      <div class="col-sm-6">
+          <input  type="text" class="form-control" [(ngModel)]='first_name' name='first_name' placeholder="First name">
+      </div>
+      <div class="col-sm-6">
+          <input type="text" class="form-control" placeholder="Last name" [(ngModel)]='last_name' name='last_name'>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+          <input type="text" class="form-control" placeholder="Enter your Email" [(ngModel)]='email' name='email'>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+          <button type="button" [disabled]='isBtnDisabled' (click)="handleNotify()">Subscribe</button>
+      </div>
+    </div>
+  </div>
 
 </section>
