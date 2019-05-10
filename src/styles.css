@@ -2,6 +2,8 @@
 html,body{
     padding:0;
     margin:0;
+    transition: all 0.3s ease-in-out;
+    scroll-behavior: smooth;
 }
 
 
@@ -62,4 +64,15 @@ html,body{
     #schedule .nav-tabs a {
       padding: 8px 60px;
     }
+  }
+
+  .section-sub-title {
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-top: 1.1em;
+    margin-bottom: 3em;
+  }
+
+  .container {
+    text-align: center;
   }

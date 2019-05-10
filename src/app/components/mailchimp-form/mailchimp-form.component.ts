@@ -49,7 +49,7 @@ export class MailchimpFormComponent implements OnInit {
       Swal.fire({
         type: 'success',
         title: 'Keep in touch!',
-        text:  `This the Sri Lankan's biggest Angular Event`
+        text:  `Thanks for registering with us!.We will keep you updated`
       });
       this.isBtnDisabled = false;
 
